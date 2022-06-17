@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUN HYOUNG</title>
+    <!-- font & icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://your_path_to_version_6_files/css/all.css" >
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">  
+    <link rel="stylesheet" href="css/common.css" type="text/css"> 
+    <link rel="stylesheet" href="css/header.css" type="text/css"> 
+    <link rel="stylesheet" href="css/title.css" type="text/css"> 
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/aside.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- script -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>  
+    <script src="js/header.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/aside.js" type="text/javascript"></script>
+    <script src="js/about.js" type="text/javascript"></script>
+    <script src="js/about2.js" type="text/javascript"></script>
+    <script src="js/jquery.fullPage.js" type="text/javascript"></script>
+    <script defer src="js/your_path_to_version_6_files/js/all.js"></script>
+    <script>
+         $(document).ready(
+            function(){
+                // 서브메뉴 표시(햄버거버튼)
+                $("header .wrap a.allmenu").click(function(){
+                    // x변환
+                    $(this).toggleClass("x");
+                    // 대메뉴등장
+                    $("header .wrap ul.gnb").toggleClass("moveShow");
+                    return false;
+                });
+            });
+</script>
+    <!-- 스크롤 이벤트 aos -->
+    <link href="css/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- 상단영역 -->
+    <header>
+        <div class="wrap">
+            <h1 class="h1"><a href="index.html">RASALLY</a></h1>
+            <ul class="gnb">
+                <li><a href="pf/work.html" class="work">WORK</a></li>
+                <li><a href="pf/portfolio.html" class="portfolio">PORTFOLIO</a></li>
+                <li><a href="pf/about.html" class="about">ABOUT ME</a></li>
+                <li><a href="pf/contact.html" class="contact">CONTACT</a></li>
+            </ul>
+            <a href="" class="allmenu">전체메뉴보기<span></span></a>
+        </div>  
+    </header>
+    
+
+    <!-- div#title+(main>section*3>div.wrap)+footer -->
+    <main id="fullpage">
+    <!-- 타이틀영역 -->
+    <div id="title" class="section">
+       <div class="gallery">
+            <div class="reauto">
+                <ul class="slide1">
+                    <li>
+                        <h2 class="h2">flexible area</h2>
+                        <p class="p">기획, 디자인, 개발 영역을 유연하게 넘나들며 작업<br>
+                            Work flexibly across various fields</p>
+                        <a href="" class="more"></a>
+                        <img src="./img/title_1.jpg" alt="">
+                    </li>
+                    <li>
+                        <h2 class="h2">simple & clear</h2>
+                        <p class="p">단순하고 명쾌한 UIUX 디자인을 지향<br>
+                            Simple and clear design is always best</p>
+                        <a href="" class="more"></a>
+                        <img src="https://cdn.pixabay.com/photo/2022/01/15/02/07/windows-6938478_1280.jpg" alt="">
+                    </li>
+                    <li>
+                        <h2 class="h2">creative Work</h2>
+                        <p class="p">사용자에 맞춰 창의적이고 뻔하지 않게 작업<br>
+                            Creative and unique work</p>
+                        <a href="" class="more"></a>
+                        <img class="size" src="https://cdn.pixabay.com/photo/2016/04/08/19/51/watercolor-1316867_1280.jpg" alt="">
+                    </li>
+                </ul>
+                <ul class="slide1">
+                    <li>
+                        <h2 class="h2">flexible area</h2>
+                        <p class="p">기획, 디자인, 개발 영역을 유연하게 넘나들며 작업<br>
+                            Work flexibly across various fields</p>
+                        <a href="" class="more"></a>
+                        <img src="./img/title_1.jpg" alt="">
+                    </li>
+                    <li>
+                        <h2 class="h2">simple & clear</h2>
+                        <p class="p">단순하고 명쾌한 UIUX 디자인을 지향<br>
+                            Simple and clear design is always best</p>
+                        <a href="" class="more"></a>
+                        <img src="https://cdn.pixabay.com/photo/2022/01/15/02/07/windows-6938478_1280.jpg" alt="">
+                    </li>
+                    <li>
+                        <h2 class="h2">creative Work</h2>
+                        <p class="p">사용자에 맞춰 창의적이고 뻔하지 않게 작업<br>
+                            Creative and unique work</p>
+                        <a href="" class="more"></a>
+                        <img src="https://cdn.pixabay.com/photo/2016/04/08/19/51/watercolor-1316867_1280.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <p class="before"><</p>
+            <p class="after">></p>
+        </div>
+        <p class="down"><span>아래보기</span></p>
+    </div>
+
+    <!-- 내용영역 -->
+   
+    
+        <section id="introduce" class="section">
+                <div class="wrap">
+                    <h2 class="animate__animated h2" data-effect="animate__bounce">Online UIUX Architecture</h2>
+                        <p class="animate__animated p" data-effect="animate__flipInX"> UI/UX 관점으로
+                             공간을 설계하는<br> 온라인 공간 디자이너</p>
+                </div>
+            </section>
+        <section id="about3" class="section">
+                <div class="wrap_3">
+                    <h2 class="animate__animated h2" data-effect="animate__fadeInDown">Skill & Tool</h2>
+                    <section class="animate__animated" data-effect="animate__fadeInUp">
+                        <p class="p"> 새로운 기술을 배우는게 취미 <br>
+                        풀스택(full stack)이 목표</p>
+                    </section>
+                    <ul class="list_2">
+                        <li> 
+                        <i class="fab fa-html5" ></i>
+                        &nbsp;HTML 
+                        <p>100%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-css3-alt"></i>
+                            &nbsp;CSS3
+                            <p>100%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-sass"></i>
+                            &nbsp;SCSS
+                            <p>30%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-file-code"></i>
+                            &nbsp;Visul Studio
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-video-camera"></i>
+                            &nbsp;jQuery
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-bootstrap"></i>
+                            &nbsp;BootStrap
+                            <p>20%</p>
+                        </li>
+                        <li> 
+                            <i class="fab fa-github-alt"></i>
+                            &nbsp;Github
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-jsfiddle"></i>
+                             &nbsp;jsfiddle
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-video-camera"></i>
+                            &nbsp;Cafe24
+                            <p>20%</p>
+                        </li>  
+                        <li>
+                            <i class="fab fa-js"></i>
+                            &nbsp;javascript
+                            <p>30%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-react"></i>
+                            &nbsp;React
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-light fa-image"></i>
+                            &nbsp;Photoshop
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-video-camera"></i>
+                            &nbsp;Illustrator
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-video-camera"></i>
+                            &nbsp;Indesign
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-video-camera"></i>
+                            &nbsp;Figma
+                            <p>20%</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-video-camera"></i>
+                            &nbsp;Final Cut Pro
+                            <p>20%</p>
+                        </li>
+                    </ul>
+               </div>
+            </section>
+        <section id="work" class="section">
+            <div class="wrap">
+                <h2 class="h2">Flexible & Creative Work </h2>
+                <p class="p"> 기획부터 디자인, 개발까지 <br>
+                               아우르는 작업 포트폴리오 </p>
+                <ul>
+                    <li>
+                        <h3>BRANDING</h3>
+                        <p>concept plan</p>
+                        <a href="pf4/index.html" target="_blank">check</a>
+                    </li>
+                    <li>
+                        <h3>DESIGN</h3>
+                        <p>graphic design</p>
+                        <a href="pf3/index.html" target="_blank">check</a>
+                    </li>
+                    <li>
+                        <h3>ART</h3>
+                        <p>illust </p>
+                        <a href="pf5/index.html" target="_blank">check</a>
+                    </li>
+                    <li>
+                        <h3>Illust</h3>
+                        <p>ready</p>
+                        <a href="">check</a>
+                    </li>
+                    <li>
+                        <h3>UI/UX</h3>
+                        <p>ready</p>
+                        <a href="">check</a>
+                    </li>
+                    <li>
+                        <h3>FRONT-END</h3>
+                        <p>ready</p>
+                        <a href="">check</a>
+                    </li>
+                </ul>
+            </div>
+            
+            </section>
+     
+    <!-- aside -->
+    
+    
+
+    <!-- 하단영역 -->
+    <footer class="section fp-auto-height">
+            <div class="wrap">
+                <ul class="local">
+                    <li>
+                        <h2 class="h5">Location</h2>
+                        <p class="p">time weather</p>
+                    </li>
+                    <li>
+                        <h2 class="h5">Date</h2>
+                        <p class="p">2022.Mar.27</p>
+                    </li>
+                </ul>
+                <div class="right">
+                    <ul class="sns">
+                        <li><a href="https://www.instagram.com" alt=""><i class="fab fa-instagram"></i>인스타그램</a></li>
+                        <li><a href="https://www.linkedin.com" alt=""><i class="fab fa-linkedin"></i>링크드인</a></li>
+                        <li><a href="https://www.behance.net" alt=""><i class="fab fa-behance-square"></i>비헨스</a></li>
+                    </ul>
+                </div>
+                <p>Copyright ©2022 Rasally All rights reserved</p>
+            </div>
+        </footer>
+    </main> 
+    <aside class="">
+        <!-- <div class="quickmenu">
+            <ul>
+                <li><a href="pf/portfolio.html">Portfolio<span class="block"></span>제가 제작한 작업물</a></li>
+                <li><a href="pf/about.html">About me<span class="block"></span>저에 대해 소개합니다</a></li>
+                <li><a href="pf/contact.html">Contact<span class="block"></span>저에게 연락주세요</a></li>
+            </ul>
+            <a href="" class="up">보기</a>
+        </div> -->
+        <a href="" id="back-to-top">맨위로 가기</a>
+    </aside>
+</body>
+</html>
